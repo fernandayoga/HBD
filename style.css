@@ -1,0 +1,153 @@
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Reset and Global Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(56, 56, 56);
+    overflow-x: hidden;
+  }
+  
+  body {
+    background: linear-gradient(#22d1ee, #3d5af1, #5aaeff) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  /* Overlay Introduction Section */
+  .open {
+    background-image: linear-gradient(#22d1ee, #3d5af1);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+    transition: 0.5s all ease;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .open h2 {
+    margin-bottom: 20px;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .open .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .open .card h3 {
+    margin-top: 20px;
+  }
+  
+  .open .card img {
+    height: 100px;
+  }
+  
+  /* Main Content Section */
+  .atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .atas img {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .atas h2 {
+    background-color: #fff;
+    padding: 20px 30px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Greeting Card */
+  .kartu-ucapan {
+    background-color: #fff;
+    color: rgb(56, 56, 56);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 50px 30px;
+    margin: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .kartu-ucapan img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Make a Wish Button */
+  .tanya {
+    background-color: #2fe965;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 50px 30px;
+    margin: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .wish {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #fff;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
